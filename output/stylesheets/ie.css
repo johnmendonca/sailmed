@@ -1,0 +1,237 @@
+/* line 5, ../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../../sass/partials/_structure.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, ../../sass/partials/_structure.scss */
+body {
+  background: #f0f0f0 url("images/bg1.png");
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14pt;
+  line-height: 1.75em;
+  color: #4c4c4c;
+}
+
+/* line 21, ../../sass/partials/_structure.scss */
+h1, h2, h3, h4 {
+  color: #1d1d1d;
+}
+
+/* line 26, ../../sass/partials/_structure.scss */
+h2, h3 {
+  font-size: 1.6em;
+  letter-spacing: -1px;
+  margin: 0 0 0.75em 0;
+}
+
+/* line 32, ../../sass/partials/_structure.scss */
+strong {
+  color: #1d1d1d;
+}
+
+/* line 34, ../../sass/partials/_structure.scss */
+a {
+  color: #478903;
+  text-decoration: underline;
+}
+
+/* line 39, ../../sass/partials/_structure.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 43, ../../sass/partials/_structure.scss */
+.button {
+  display: inline-block;
+  background: #0893cf;
+  box-shadow: inset 0px 0px 0px 1px #48d3ff, 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+  border: solid 1px #0893cf;
+  border-radius: 6px;
+  padding: 0.45em 1.1em 0.5em 1.1em;
+  color: #fff;
+  font-size: 0.8em;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+  background-image: -moz-linear-gradient(#38c3ff, #0893cf);
+  background-image: -o-linear-gradient(#38c3ff, #0893cf);
+  background-image: -webkit-linear-gradient(#38c3ff, #0893cf);
+  background-image: linear-gradient(#38c3ff, #0893cf);
+  outline: 0;
+  white-space: nowrap;
+}
+
+/* line 59, ../../sass/partials/_structure.scss */
+.button:hover {
+  background: #28a3df;
+  background-image: -moz-linear-gradient(#58d3ff, #28a3df);
+  background-image: -o-linear-gradient(#58d3ff, #28a3df);
+  background-image: -webkit-linear-gradient(#58d3ff, #28a3df);
+  background-image: linear-gradient(#58d3ff, #28a3df);
+}
+
+/* line 64, ../../sass/partials/_structure.scss */
+.button:active {
+  background: #38C3FF;
+  background-image: -moz-linear-gradient(#0893cf, #38c3ff);
+  background-image: -o-linear-gradient(#0893cf, #38c3ff);
+  background-image: -webkit-linear-gradient(#0893cf, #38c3ff);
+  background-image: linear-gradient(#0893cf, #38c3ff);
+}
+
+/* line 69, ../../sass/partials/_structure.scss */
+.divider {
+  border-top: solid 1px #e5e5e5;
+  border-bottom: solid 1px #e5e5e5;
+  height: 4px;
+  margin: 2em 0 2em 0;
+}
+
+/* line 76, ../../sass/partials/_structure.scss */
+.divider-top {
+  margin-bottom: 0;
+}
+
+/* line 80, ../../sass/partials/_structure.scss */
+.divider-bottom {
+  margin-top: 0;
+}
+
+/* line 84, ../../sass/partials/_structure.scss */
+.cta-box {
+  background: url("images/bg2.png");
+  text-align: center;
+  padding: 1.25em 0 1.25em 0;
+  font-size: 2em;
+}
+/* line 91, ../../sass/partials/_structure.scss */
+.cta-box .button {
+  margin-left: 0.8em;
+}
+
+/* line 98, ../../sass/partials/_structure.scss */
+.highlight-box {
+  background: url("images/bg2.png");
+  text-align: center;
+  padding: 3.5em 0 3.5em 0;
+}
+/* line 104, ../../sass/partials/_structure.scss */
+.highlight-box h2 {
+  font-size: 3.2em;
+  letter-spacing: -3px;
+  margin: 0 0 0.6em 0;
+}
+/* line 110, ../../sass/partials/_structure.scss */
+.highlight-box .highlight-box span {
+  font-size: 2em;
+  color: #a1a1a1;
+}
+
+/* line 117, ../../sass/partials/_structure.scss */
+.thumbnails .divider {
+  border-bottom: 0;
+  border-top: solid 1px #e5e5e5;
+  margin: 1em 0 1em 0;
+}
+/* line 123, ../../sass/partials/_structure.scss */
+.thumbnails .thumbnails .thumbnail {
+  overflow: hidden;
+}
+/* line 126, ../../sass/partials/_structure.scss */
+.thumbnails .thumbnails .thumbnail img {
+  border: solid 5px #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  float: left;
+  margin-right: 25px;
+}
+/* line 133, ../../sass/partials/_structure.scss */
+.thumbnails .thumbnails .thumbnail blockquote {
+  margin: 0 0 0.75em 0;
+  margin-left: 130px;
+}
+/* line 138, ../../sass/partials/_structure.scss */
+.thumbnails .thumbnails .thumbnail cite {
+  color: #888;
+  margin-left: 130px;
+  display: block;
+}
+/* line 142, ../../sass/partials/_structure.scss */
+.thumbnails .thumbnails .thumbnail cite strong {
+  padding-right: 0.25em;
+}
+
+/* line 150, ../../sass/partials/_structure.scss */
+.link-list li {
+  border-top: solid 1px #d0d0d0;
+  line-height: 2.5em;
+}
+/* line 154, ../../sass/partials/_structure.scss */
+.link-list li:first-child {
+  border-top: none;
+}
