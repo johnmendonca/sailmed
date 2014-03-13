@@ -612,6 +612,11 @@ a:hover {
   }
 
   /* line 162, ../../sass/partials/_structure_desktop.scss */
+  #banner #banner_lead_cont {
+    height: 532px;
+  }
+
+  /* line 166, ../../sass/partials/_structure_desktop.scss */
   #banner .caption {
     background: #00455f;
     background: linear-gradient(#004500, #002c00);
@@ -623,35 +628,41 @@ a:hover {
     border-radius: 5px;
   }
 
-  /* line 174, ../../sass/partials/_structure_desktop.scss */
+  /* line 177, ../../sass/partials/_structure_desktop.scss */
+  #banner .caption span {
+    display: inline-block;
+    width: 532px;
+  }
+
+  /* line 182, ../../sass/partials/_structure_desktop.scss */
   #banner .caption .button {
     border: solid 1px #001916;
     margin-left: 0.8em;
   }
 
   /* Site Footer */
-  /* line 182, ../../sass/partials/_structure_desktop.scss */
+  /* line 190, ../../sass/partials/_structure_desktop.scss */
   #site-footer {
     text-shadow: 1px 2px 0px #fff;
   }
 
-  /* line 187, ../../sass/partials/_structure_desktop.scss */
+  /* line 195, ../../sass/partials/_structure_desktop.scss */
   #site-footer a {
     text-decoration: none;
     color: #525252;
   }
 
-  /* line 193, ../../sass/partials/_structure_desktop.scss */
+  /* line 201, ../../sass/partials/_structure_desktop.scss */
   #site-footer a:hover {
     text-decoration: underline;
   }
 
-  /* line 199, ../../sass/partials/_structure_desktop.scss */
+  /* line 207, ../../sass/partials/_structure_desktop.scss */
   #site-footer ul li {
     line-height: 2.5em;
   }
 
-  /* line 204, ../../sass/partials/_structure_desktop.scss */
+  /* line 212, ../../sass/partials/_structure_desktop.scss */
   #site-footer .divider {
     border-top: solid 1px #d0d0d0;
     border-bottom: solid 1px #d0d0d0;
@@ -660,49 +671,49 @@ a:hover {
   }
 
   /* Copyright */
-  /* line 214, ../../sass/partials/_structure_desktop.scss */
+  /* line 222, ../../sass/partials/_structure_desktop.scss */
   #copyright {
     text-align: center;
     color: #868686;
   }
 
-  /* line 220, ../../sass/partials/_structure_desktop.scss */
+  /* line 228, ../../sass/partials/_structure_desktop.scss */
   #copyright a {
     color: #868686;
   }
 
   /* Subpage */
-  /* line 227, ../../sass/partials/_structure_desktop.scss */
+  /* line 235, ../../sass/partials/_structure_desktop.scss */
   .subpage {
     padding-top: 4em !important;
   }
 
-  /* line 232, ../../sass/partials/_structure_desktop.scss */
+  /* line 240, ../../sass/partials/_structure_desktop.scss */
   .subpage article {
     padding: 0 1em 0 1em;
   }
 
-  /* line 237, ../../sass/partials/_structure_desktop.scss */
+  /* line 245, ../../sass/partials/_structure_desktop.scss */
   .subpage article.first {
     padding: 0 1em 0 0;
   }
 
-  /* line 242, ../../sass/partials/_structure_desktop.scss */
+  /* line 250, ../../sass/partials/_structure_desktop.scss */
   .subpage article.last {
     padding: 0 0 0 1em;
   }
 
-  /* line 247, ../../sass/partials/_structure_desktop.scss */
+  /* line 255, ../../sass/partials/_structure_desktop.scss */
   .subpage h2 {
     font-size: 2.2em;
   }
 
-  /* line 252, ../../sass/partials/_structure_desktop.scss */
+  /* line 260, ../../sass/partials/_structure_desktop.scss */
   .subpage p {
     margin: 0 0 1.5em 0;
   }
 
-  /* line 257, ../../sass/partials/_structure_desktop.scss */
+  /* line 265, ../../sass/partials/_structure_desktop.scss */
   .subpage section, .subpage article {
     margin: 0 0 2em 0;
   }
