@@ -4,6 +4,6 @@ In the field of cargo transport by sail (Sail Transport), the renewable energy p
 
 The current Sail Transport goals of SAIL MED focus on:
 
- * The use of existing sailboats for sail cargo transport
- * Converting existing sailing and motor-powered vessels to full sailing capability
- * Constructing new sailing or hybrid ships for trade and travel.
+ * - The use of existing sailboats for sail cargo transport
+ * - Converting existing sailing and motor-powered vessels to full sailing capability
+ * - Constructing new sailing or hybrid ships for trade and travel.
